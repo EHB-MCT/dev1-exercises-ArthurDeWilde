@@ -13,9 +13,9 @@ drawSunset();
 function drawSunset() {
     context.fillStyle = "yellow";
     context.fillRect(0, 0, canvasWidth, canvasHeight);
-    context.fillStyle = "darkorange";
+    context.fillStyle = "orange";
     context.fillRect(0, canvasHeight / 4, canvasWidth, canvasHeight / 4);
-    context.fillStyle = "darkred";
+    context.fillStyle = "red";
     context.fillRect(0, canvasHeight / 2, canvasWidth, canvasHeight / 2);
     context.beginPath();
     context.fillStyle = "white";
@@ -23,4 +23,5 @@ function drawSunset() {
     context.fill();
     context.fillStyle = "blue";
     context.fillRect(0, canvasHeight * 3 / 4, canvasWidth, canvasHeight * 3 / 4);
+
 }
